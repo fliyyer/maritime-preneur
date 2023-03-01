@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Logo from '../assets/Logo.png'
 
@@ -16,20 +15,16 @@ const Footer = () => {
                             className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                             Operation Office
                         </h6>
-                        <p className="mb-4">
-                            <a href="#!" className="text-white"
-                            >Indonesia Blue Economy Center (IBEC)</a
-                            >
+                        <p className="mb-4 text-white">
+                            Indonesia Blue Economy Center (IBEC)
+
                         </p>
-                        <p className="mb-4">
-                            <a href="#!" className="text-white"
-                            >Kampus C STIE Indonesia Jakarta</a
-                            >
+                        <p className="mb-4 text-white">
+                            Kampus C STIE Indonesia Jakarta
+
                         </p>
-                        <p className="mb-4">
-                            <a href="#!" className="text-white"
-                            >Jalan Pratekan No. 9A, Rawamangun, Jakarta Timur</a
-                            >
+                        <p className="mb-4 text-white">
+                            Jalan Pratekan No. 9A, Rawamangun, Jakarta Timur
                         </p>
                     </div>
                     <div className="">
@@ -37,20 +32,15 @@ const Footer = () => {
                             className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                             Support
                         </h6>
-                        <p className="mb-4">
-                            <a href="#!" className="text-white"
-                            >Contact Us</a
-                            >
+                        <p className="mb-4 text-white">
+                            Contact Us
+
+                        </p>
+                        <p className="mb-4 text-white">
+                            FAQ/Help
                         </p>
                         <p className="mb-4">
-                            <a href="#!" className="text-white"
-                            >FAQ/Help</a
-                            >
-                        </p>
-                        <p className="mb-4">
-                            <a href="#!" className="text-white"
-                            >Resources</a
-                            >
+                            Resources
                         </p>
 
                     </div>
@@ -124,14 +114,10 @@ const Footer = () => {
             </div>
             <div className="bg-primary-color border-t-2 p-6 text-center">
                 <span className='font-semibold'>© 2023 MARITIMEPRENEUR</span>
-                {/* <a
-                    className=""
-                > is a trademark of PT Mahakarya Maritim Indonesia.<br /> Registered in the Directorate General of Intellectual
-                    Property of the Republic of Indonesia.</a
-                > */}
             </div>
-        </footer>
+        </footer >
     )
 }
 
 export default Footer
+
