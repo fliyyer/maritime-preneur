@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url(../assets/bg-home.png);
+    background-size: cover;
+    width: 100%;
+    height: 638px;
+}
+
+.bg-linear {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(239.98deg, #246BDD 28.01%, #0F1B33 81.41%);
+    height: 600px;
+}
