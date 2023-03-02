@@ -1,10 +1,20 @@
+import React from 'react';
 import Homepage from "./pages/Homepage";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import TeamPage from './pages/TeamPage';
+import SupportPage from './pages/SupportPage';
+import ServicePage from './pages/ServicePage';
 
 function App() {
   return (
-    <div>
-      <Homepage/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route path="/support" element={<SupportPage />} />
+        <Route path="/service" element={<ServicePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -12,6 +12,21 @@
     height: 638px;
 }
 
+/* .team-hero {
+    background-image: url('../assets/bg-team.png');
+} */
+
+.bg-support {
+    background-image: url(../assets//bg-sup.png);
+}
+
+.bg-cover {
+    background-size: cover;
+  }
+
+.bg-center {
+    background-position: center;
+  }
 .bg-linear {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(239.98deg, #246BDD 28.01%, #0F1B33 81.41%);
     height: 600px;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from '../assets/Logo.png'
-
+import { Link } from "react-router-dom";
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
@@ -55,16 +55,16 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-lg font-medium">
                             <li className="text-white hover:text-secondary-color cursor-pointer">
-                                Home
+                                <Link to='/'>Home</Link>
                             </li>
                             <li className="text-white hover:text-secondary-color cursor-pointer">
-                                Team
+                                <Link to='/team'>Team</Link>
                             </li>
                             <li className="text-white hover:text-secondary-color cursor-pointer">
-                                Service
+                                <Link to='/service'>Service</Link>
                             </li>
                             <li className="text-white hover:text-secondary-color cursor-pointer">
-                                Support
+                                <Link to='/support'>Support</Link>
                             </li>
                         </ul>
                     </div>
