@@ -20,6 +20,10 @@
     background-image: url(../assets//bg-sup.png);
 }
 
+.bg-service {
+    background-image: url(../assets/bg-service.png);
+}
+
 .bg-cover {
     background-size: cover;
   }
@@ -27,6 +31,18 @@
 .bg-center {
     background-position: center;
   }
+
+.bg-dt {
+    background-image: url(../assets/bg-dt.png);
+}
+
+.bg-et {
+    background-image: url(../assets/bt-et.png);
+}
+
+.box-sw {
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
 .bg-linear {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(239.98deg, #246BDD 28.01%, #0F1B33 81.41%);
     height: 600px;
