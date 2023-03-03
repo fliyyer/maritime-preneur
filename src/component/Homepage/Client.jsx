@@ -13,7 +13,7 @@ const Client = () => {
                 <img src={Log1} alt="STIE" className="w-24 mx-11 lg:w-28 " />
                 <img src={Log2} alt="Museum Kebaharian Jakarta" className="ml-3 sm:mr-8 w-44 lg:w-64 " />
                 <img src={Log5} alt="Ibec" className="w-40 ml-4 lg:w-96" />
-                <img src={Log4} alt="maritim Muda" className="ml-12 lg:w-40 sm:ml-36" />
+                <img src={Log4} alt="maritim Muda" className="ml-12  sm:ml-36 lg:w-40 lg:ml-4" />
                 <img src={Log3} alt="BPN" className="ml-8 sm:mx-36 lg:mx-0 w-32" />
             </div>
         </div>

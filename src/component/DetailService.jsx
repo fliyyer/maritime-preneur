@@ -2,17 +2,18 @@ import React from 'react'
 
 const DetailService = (props) => {
     return (
-        <div className='bg-linear p-20'>
-            <div class="flex flex-col md:flex-row md:items-center md:justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-16">
-                <div class="md:w-1/2 lg:w-2/5">
-                    <img src={props.img} alt="" />
-                </div>
-                <div class="md:w-1/2 lg:w-3/5 mt-8 md:mt-0 md:pl-8 lg:pl-16 text-white">
-                    <h2 class="text-4xl font-bold mb-4">{props.title}</h2>
-                    <p class="mb-4 font-normal text-2xl">{props.desk}</p>
-                    <p className='mb-4 text-justify '>{props.capt}</p>
-                    <button className='bg-secondary-color rounded-lg w-32 h-10 text-white font-medium  hover:opacity-75'>Read More</button>
-                </div>
+        <div className="flex flex-col md:flex-row items-center bg-linear p-3 lg:p-32">
+            <div className="md:w-1/2 mb-4 md:mb-0">
+                <img src={props.img} alt="Gambar" className="w-full" />
+            </div>
+            <div className="md:w-1/2 md:pl-8 item">
+                <h1 className="text-2xl text-white text-center font-bold mb-4 sm:text-left sm:text-3xl lg:text-4xl">{props.title}</h1>
+                <p className="text-xl text-center text-gray-200 mb-4 sm:text-left lg:text-2xl lg:mb-8 ">
+                    {props.desk}
+                </p>
+                <p className="text-l text-justify text-gray-400 mb-4 lg:text-xl">
+                    {props.capt}
+                </p>
             </div>
         </div>
     )
