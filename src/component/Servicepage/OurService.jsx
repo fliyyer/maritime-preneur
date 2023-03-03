@@ -9,7 +9,7 @@ const OurService = () => {
         <div>
             <div className="bg-cover bg-center min-h-screen flex justify-center items-center team-hero bg-dt">
                 <div className="container mx-auto px-4 py-8 items-center flex flex-col md:flex-row">
-                    <div className="md:w-1/2 md:pr-8 text-primary-color mb-28">
+                    <div className="md:w-1/2 md:pr-8 text-primary-color mb-12">
                         <p className="text-center sm:text-left font-bold text-5xl">Digital Technology</p>
                         <p className='text-center sm:text-left font-medium text-2xl my-5'>We provide services to develop and manage</p>
                         <ul className='text-xl box-sw sm:text-2xl list-disc font-bold p-6 h-fit border-solid border-4 rounded-3xl px-12 border-secondary-color'>

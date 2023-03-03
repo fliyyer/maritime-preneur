@@ -5,12 +5,12 @@ import Logo3 from '../../assets/Logo3.png'
 
 const RegisterAt = () => {
     return (
-        <div>
-            <h1 className='text-center font-bold text-4xl text-primary-color'>Register At</h1>
-            <div className='h-40 shadow-lg rounded-3xl flex flex-col md:flex-row md:items-center md:justify-around max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-16 '>
-                <img src={Logo1} alt="kementerian PPN" />
-                <img src={Logo2} alt="Museum Kebaharian jakarta" />
-                <img src={Logo3} alt="STIE Indonesia" />
+        <div className="flex flex-col items-center justify-center py-2 mb-8">
+            <h1 className="text-2xl font-bold text-primary-color mb-4">Register At</h1>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 p-6">
+                <img src={Logo1} alt="Blue Starthub" className="rounded-lg mx-auto w-44 object-cover " />
+                <img src={Logo2} alt="Pengayoman" className="rounded-lg mx-auto w-20 object-cover" />
+                <img src={Logo3} alt="Startup" className="rounded-lg lg:ml-12 mx-auto w-20 object-cover" />
             </div>
         </div>
     )
