@@ -5,7 +5,7 @@ import Logo3 from '../../assets/Logo3.png'
 
 const RegisterAt = () => {
     return (
-        <div className="flex flex-col items-center justify-center py-2 mb-8">
+        <div className="flex flex-col items-center justify-center py-2 mb-8" data-aos='fade-up' data-aos-duration='1000'>
             <h1 className="text-2xl font-bold text-primary-color mb-4">Register At</h1>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 p-6">
                 <img src={Logo1} alt="Blue Starthub" className="rounded-lg mx-auto w-44 object-cover " />

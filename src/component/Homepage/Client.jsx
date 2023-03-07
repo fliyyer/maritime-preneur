@@ -7,8 +7,8 @@ import Log5 from '../../assets/log5.png'
 
 const Client = () => {
     return (
-        <div className="flex flex-col items-center justify-center py-8">
-            <h1 className="text-2xl font-bold text-primary-color mb-8">Our Clients</h1>
+        <div className="flex flex-col items-center justify-center py-8" data-aos='fade-up' data-aos-duration='1000'>
+            <h1 className="text-2xl font-bold text-primary-color mb-8" >Our Clients</h1>
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 px-16 lg:px-44 mb-6 items-center">
                 <img src={Log1} alt="STIE" className="w-24 mx-11 lg:w-28 " />
                 <img src={Log2} alt="Museum Kebaharian Jakarta" className="ml-3 sm:mr-8 w-44 lg:w-64 " />

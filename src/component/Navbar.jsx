@@ -16,13 +16,12 @@ export default function NavBar() {
     window.addEventListener('scroll', changeBackground);
 
     return (
-        // <nav className={navbar ? 'navbar actived' : 'navbar'}>
         <nav className={changeBg ? 'navbar actived' : 'navbar'}>
             <div className="w-full">
                 <div className="justify-between px-6 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex cursor-pointer items-center justify-between py-3 md:py-5 md:block">
-                            <img className="w-14" src={Logo} alt="Logo" />
+                            <Link to='/'><img className="w-14" src={Logo} alt="Logo" /></Link>
                             <div className="md:hidden">
                                 <button
                                     className="p-2 text-black btn-actived rounded-md outline-none focus:border-gray-400 focus:border"
