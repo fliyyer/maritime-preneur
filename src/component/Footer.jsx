@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="mx-6 py-10 text-center md:text-left">
                 <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                     <div className='mb-4 flex justify-center md:justify-start' >
-                        <img src={Logo} className='w-36 h-24' alt="" />
+                        <img src={Logo} className='w-36 h-32' alt="" />
                     </div>
                     <div className="">
                         <h6
@@ -17,11 +17,9 @@ const Footer = () => {
                         </h6>
                         <p className="mb-4 text-white">
                             Indonesia Blue Economy Center (IBEC)
-
                         </p>
                         <p className="mb-4 text-white">
                             Kampus C STIE Indonesia Jakarta
-
                         </p>
                         <p className="mb-4 text-white">
                             Jalan Pratekan No. 9A, Rawamangun, Jakarta Timur
@@ -42,7 +40,6 @@ const Footer = () => {
                         <p className="mb-4">
                             Resources
                         </p>
-
                     </div>
                     <div>
                         <h6

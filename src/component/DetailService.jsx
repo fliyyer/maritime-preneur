@@ -7,8 +7,8 @@ const DetailService = (props) => {
                 <img src={props.img} alt="Gambar" className="w-full" />
             </div>
             <div className="md:w-1/2 md:pl-8 item">
-                <h1 className="text-2xl text-white text-center font-bold mb-4 sm:text-left sm:text-3xl lg:text-4xl">{props.title}</h1>
-                <p className="text-xl text-center text-gray-200 mb-4 sm:text-left lg:text-2xl lg:mb-8 ">
+                <h1 className="text-xl text-white text-center font-bold mb-2 sm:text-left sm:text-3xl lg:text-4xl">{props.title}</h1>
+                <p className="text-l text-center text-gray-200 mb-2 sm:text-left lg:text-2xl lg:mb-8 ">
                     {props.desk}
                 </p>
                 <p className="text-l text-justify text-gray-400 mb-4 lg:text-xl">

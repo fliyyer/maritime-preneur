@@ -5,6 +5,34 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    position: sticky;
+   background: #3C37F1;
+    color: #ffffff;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar ul li {
+    color: white;
+}
+
+.bg-header {
+    border-radius: 40px;
+    width: 100%;
+}
+
+.navbar.actived  ul li {
+    color: blue;
+}
+
+.actived.btn-actived {
+    color: #3C37F1;
+}
+.navbar.actived {
+    background-color: #ffffff;
+    box-shadow: 0px 0.3px black;
+}
 .bg-image {
     background-image: url(../assets/bg-home.png);
     background-size: cover;

@@ -1,22 +1,23 @@
-import React from 'react';
+import React from 'react'
+import BgHome from '../../assets/bg-perahu.png'
 
-const Header = () => {
+const HeaderService = () => {
     return (
-        <header className="bg-image py-4">
-            <div className="container mx-auto flex justify-between items-center px-4 h-96">
-                <div>
-                    <h1 className=" text-white text-4xl md:text-7xl sm:text-5xl font-bold mt-40 ml-5">Maritimepreneur</h1>
-                    <p className="text-white mt-8 font-normal text-2xl sm:text-3xl ml-5">
-                        Building the Nations, <br /> Sustaining Our Oceans
+        <div className="bg-cover bg-center min-h-screen flex justify-center items-center team-hero bg-service">
+            <div className="container mx-auto px-4 py-8 items-center flex flex-col md:flex-row">
+                <div className="md:w-1/2 md:pr-8">
+                    <p className="text-white font-bold text-4xl md:text-4xl lg:text-6xl mb-4">Maritimepreneur</p>
+                    <p className="text-white text-center sm:text-left md:text-xl lg:text-3xl mb-4">
+                        Building the Nations<br /> Sustaining Our Oceans
                     </p>
-                    <button className='bg-secondary-color ml-5 w-52 h-14 rounded-xl mt-8 text-white font-bold hover:opacity-70'>Get Started</button>
-
+                </div>
+                <div className="md:w-1/2">
+                    <img className="bg-header w-10 hidden sm:block" src={BgHome} alt="gambar perahu" />
+                    <div></div>
                 </div>
             </div>
-        </header>
+        </div>
     )
+}
 
-
-};
-
-export default Header;
+export default HeaderService

@@ -10,7 +10,7 @@ const CardSupport = (props) => {
                 <p className="text-gray-700 text-center text-base">{props.desk}</p>
             </div>
             <div className="mx-auto p-4 flex text-center">
-                <a href={props.pdf} className="bg-primary-color text-white rounded-lg px-24 py-4 font-bold hover:bg-blue-600 transition-colors duration-200">Download</a>
+                <a href={props.pdf} target='_blank' className="bg-primary-color text-white rounded-lg px-24 py-4 font-bold hover:bg-blue-600 transition-colors duration-200" rel="noreferrer">Download</a>
             </div>
         </div>
     )
