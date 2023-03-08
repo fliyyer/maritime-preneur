@@ -13,10 +13,10 @@ const HeaderSupport = () => {
 
     return (
         <div className="bg-cover bg-center min-h-screen flex justify-center items-center team-hero bg-service">
-            <div className="container mx-auto px-4 py-8 items-center flex flex-col md:flex-row">
+            <div className="container mx-auto px-4 lg:px-8 py-8 items-center flex flex-col md:flex-row">
                 <div className="md:w-1/2 md:pr-8" data-aos="fade-right">
-                    <p className="text-white font-bold text-5xl mb-4">Certificate and Rules</p>
-                    <p className="text-white text-lg mb-8">
+                    <p className="text-white text-3xl font-bold sm:text-5xl mb-4">Certificate and Rules</p>
+                    <p className="text-white text-m sm:text-lg mb-8">
                         The official rules and regulations governing our organization can be found here. We strongly advise all parties to review them carefully.
                     </p>
                 </div>
