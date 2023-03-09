@@ -62,7 +62,7 @@ const OurService = () => {
             </div>
             <div className="flex flex-wrap justify-center p-1 sm:p-6 -mt-10 lg:-mt-20 consulting-mt md:px-20 items-center lg:py-24" >
                 <div className="flex flex-col w-full lg:w-1/2 p-8 text-primary-color" data-aos='fade-up' data-aos-duration='1500'>
-                    <h2 className="text-center text-2xl lg:text-left font-bold md:mt-10 sm:text-4xl mb-4 lg:-mt-10">Consulting</h2>
+                    <h2 className="text-center text-2xl lg:text-left font-bold md:mt-10 sm:text-4xl mb-4 lg:mt-10">Consulting</h2>
                     <p className="text-center text-m lg:text-left font-medium sm:text-xl mb-2">We Provide Consultancy in
                     </p>
                     <hr />
@@ -74,7 +74,7 @@ const OurService = () => {
                         <li className='my-4'>Creative Economy</li>
                     </ul>
                 </div>
-                <div className="w-full lg:w-1/2 p-8 lg:-mt-10" data-aos='zoom-in-up' data-aos-duration='1000'>
+                <div className="w-full lg:w-1/2 p-8 lg:mt-10" data-aos='zoom-in-up' data-aos-duration='1000'>
                     <img src={Service3} alt="Gambar Konten" className="w-full h-auto rounded-lg hidden lg:block " />
                 </div>
             </div>
