@@ -1,27 +1,47 @@
 import { useState } from "react";
-import Logo from "../assets/Logo.png";
-import { Link } from "react-router-dom";
+import Brand from "../assets/brand.png";
+import Brand2 from "../assets/brand2.png";
+import { Link, useLocation } from "react-router-dom";
 
 export default function NavBar() {
+    const location = useLocation();
+    const isHome = location.pathname === "/";
+    const isService = location.pathname === "/service";
+    const isTeam = location.pathname === "/team";
+    const isSupport = location.pathname === "/support";
     const [navbar, setNavbar] = useState(false);
     const [changeBg, setChangeBg] = useState(false);
     const changeBackground = () => {
         if (window.scrollY > 15) {
-            setChangeBg(true)
+            setChangeBg(true);
         } else {
-            setChangeBg(false)
+            setChangeBg(false);
         }
-    }
+    };
+    const Logo = changeBg ? (
+        <img className="w-14" src={Brand} alt="Maritime Color" />
+    ) : (
+        <img className="w-14" src={Brand2} alt="Maritime White" />
+    );
 
-    window.addEventListener('scroll', changeBackground);
+    window.addEventListener("scroll", changeBackground);
 
     return (
-        <nav className={changeBg ? 'navbar actived' : 'navbar'}>
+        <nav className={changeBg ? "navbar actived shadow-lg" : "navbar"}>
             <div className="w-full">
-                <div className="justify-between px-6 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+                <div className="justify-between px-6 mx-auto lg:max-w-7xl md:items-center md:flex md:px-20">
                     <div>
                         <div className="flex cursor-pointer items-center justify-between py-3 md:py-5 md:block">
-                            <Link to='/'><img className="w-14" src={Logo} alt="Logo" /></Link>
+                            <Link
+                                to="/"
+                                onClick={() => {
+                                    if (!isHome) {
+                                        window.scrollTo(0, 0);
+                                    }
+                                }}
+                            >
+                                {Logo}
+                            </Link>
                             <div className="md:hidden">
                                 <button
                                     className="p-2 text-black btn-actived rounded-md outline-none focus:border-gray-400 focus:border"
@@ -67,16 +87,52 @@ export default function NavBar() {
                         >
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-l font-semibold">
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
-                                    <Link to="/">Home</Link>
+                                    <Link
+                                        to="/"
+                                        onClick={() => {
+                                            if (!isHome) {
+                                                window.scrollTo(0, 0);
+                                            }
+                                        }}
+                                    >
+                                        Home
+                                    </Link>
                                 </li>
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
-                                    <Link to="/team">Team</Link>
+                                    <Link
+                                        to="/team"
+                                        onClick={() => {
+                                            if (!isTeam) {
+                                                window.scrollTo(0, 0);
+                                            }
+                                        }}
+                                    >
+                                        Team
+                                    </Link>
                                 </li>
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
-                                    <Link to="/service">Service</Link>
+                                    <Link
+                                        to="/service"
+                                        onClick={() => {
+                                            if (!isService) {
+                                                window.scrollTo(0, 0);
+                                            }
+                                        }}
+                                    >
+                                        Service
+                                    </Link>
                                 </li>
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
-                                    <Link to="/support">Support</Link>
+                                    <Link
+                                        to="/support"
+                                        onClick={() => {
+                                            if (!isSupport) {
+                                                window.scrollTo(0, 0);
+                                            }
+                                        }}
+                                    >
+                                        Support
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
