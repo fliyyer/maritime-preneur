@@ -6,9 +6,9 @@ import { Link, useLocation } from "react-router-dom";
 export default function NavBar() {
     const location = useLocation();
     const isHome = location.pathname === "/";
-    const isService = location.pathname === "/service";
+    const isService = location.pathname === "/services";
     const isTeam = location.pathname === "/team";
-    const isSupport = location.pathname === "/support";
+    const isSupport = location.pathname === "/download";
     const [navbar, setNavbar] = useState(false);
     const [changeBg, setChangeBg] = useState(false);
     const changeBackground = () => {
@@ -112,26 +112,26 @@ export default function NavBar() {
                                 </li>
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
                                     <Link
-                                        to="/service"
+                                        to="/services"
                                         onClick={() => {
                                             if (!isService) {
                                                 window.scrollTo(0, 0);
                                             }
                                         }}
                                     >
-                                        Service
+                                        Services
                                     </Link>
                                 </li>
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
                                     <Link
-                                        to="/support"
+                                        to="/download"
                                         onClick={() => {
                                             if (!isSupport) {
                                                 window.scrollTo(0, 0);
                                             }
                                         }}
                                     >
-                                        Support
+                                        Download
                                     </Link>
                                 </li>
                             </ul>

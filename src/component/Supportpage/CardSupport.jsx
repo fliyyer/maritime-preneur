@@ -7,7 +7,7 @@ const CardSupport = (props) => {
                 <h2 className="text-white font-semibold p-4 text-xl text-center">{props.title}</h2>
             </div>
             <div className="p-4 flex-1">
-                <p className="text-gray-700 text-center text-base">{props.desk}</p>
+               <img className='w-36 mx-auto' src={props.img} alt="" />
             </div>
             <div className="mx-auto p-4 flex text-center">
                 <a href={props.pdf} target='_blank' className="bg-primary-color text-white rounded-lg px-24 py-4 font-bold hover:bg-blue-600 transition-colors duration-200" rel="noreferrer">Download</a>

@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/support" element={<SupportPage />} />
-        <Route path="/service" element={<ServicePage />} />
+        <Route path="/download" element={<SupportPage />} />
+        <Route path="/services" element={<ServicePage />} />
       </Routes>
     </BrowserRouter>
   );

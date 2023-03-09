@@ -6,7 +6,7 @@
 
 .navbar {
     position: sticky;
-   background: #3C37F1;
+   background: #143F83;
     color: #ffffff;
     top: 0;
     transition: background-color 0.5s ease;
@@ -49,7 +49,7 @@
 }
 
 .bg-service {
-    background-image: url(../assets/bg-service.png);
+    background-image: url(../assets/bg-header.png);
 }
 
 .bg-cover {
