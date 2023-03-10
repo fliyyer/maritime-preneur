@@ -13,9 +13,9 @@ const ServiceDetail = () => {
                 img={DT}
                 title='Digital Technology'
                 desk='We Provide Services to Develop and Manage'
-                capt='Our team of experts will work with you to develop a customized digital strategy that meets your unique needs and goals. From website design and development to search engine optimization and social media marketing, we have the expertise and experience to help you succeed.'/>
+                capt='Our team of experts will work with you to develop a customized digital strategy that meets your unique needs and goals. From website design and development to search engine optimization and social media marketing, we have the expertise and experience to help you succeed.' />
             <div className="flex flex-col md:flex-row items-center my-16 p-3 sm:gap-7 lg:p-32 ">
-                <div className="md:w-1/2 md:pl-8 item" data-aos='fade-up' data-aos-duration='1500'>
+                <div className="md:w-1/2 md:pl-8 item" data-aos='fade-right' data-aos-duration='1500'>
                     <h1 className="text-xl text-primary-color  text-center font-bold mb-2 sm:text-left sm:text-3xl lg:text-4xl">Consulting</h1>
                     <p className="text-l text-center text-primary-color mb-2 sm:text-left lg:text-2xl lg:mb-8">
                         We Provide Services to Organize
@@ -24,7 +24,7 @@ const ServiceDetail = () => {
                         Our consulting services cover a range of areas, including business strategy, organizational development, process improvement, and more. Whether you're looking to streamline your operations, expand your business, or improve your bottom line, we're here to help.
                     </p>
                 </div>
-                <div className="md:w-1/2 mb-4 md:mb-0" data-aos='zoom-in-up' data-aos-duration='1500'>
+                <div className="md:w-1/2 mb-4 md:mb-0" data-aos='fade-left' data-aos-duration='1500'>
                     <img src={CS} alt="Gambar" className="w-full" />
                 </div>
             </div>
