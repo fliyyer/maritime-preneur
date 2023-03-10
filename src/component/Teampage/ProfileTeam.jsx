@@ -21,9 +21,9 @@ const ProfileTeam = () => {
     return (
         <div className="container mx-auto px-6 py-6 ">
             <div>
-                <h1 className='text-center font-semibold text-4xl my-16' data-aos="flip-down" data-aos-duration='1000' >Board of
+                <h1 className='text-center font-semibold text-4xl my-16' data-aos="fade-up" data-aos-duration='1500' >Board of
                     Commisioners</h1>
-                <div className="flex gap-12 -mx-2 sm:flex flex-col w-auto sm:gap-7 items-center " data-aos="fade-up" data-aos-duration='1500' >
+                <div className="grid md:grid-cols-2 gap-12 -mx-2  w-auto sm:gap-7 items-center " data-aos="fade-up" data-aos-duration='1500' >
                     <CardProfile
                         name="Dr. I Wayan Nurjaya"
                         position="President Commisioner"
@@ -43,29 +43,25 @@ const ProfileTeam = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-center font-semibold text-4xl my-16' data-aos="flip-down" data-aos-duration='1000'>Board of Directors</h1>
-                <div className="flex gap-12 -mx-2" data-aos="fade-up" data-aos-duration='1500'>
+                <h1 className='text-center font-semibold text-4xl my-16' data-aos="fade-up" data-aos-duration='1500'>Board of Directors</h1>
+                <div className="grid md:grid-cols-2 gap-12 -mx-2" data-aos="fade-up" data-aos-duration='1500'>
                     <CardProfile
                         name="Dr. Catur Prasetyo"
                         position="President Director"
                         image={Profile3}
-                        description="Visionary leader with a proven track 
-                        record of driving growth and 
-                        profitability."
+                        description="Visionary leader with a proven track record of driving growth and profitability."
                     />
                     <CardProfile
                         name="Kaisar Akhir"
                         position="Managing Director"
                         image={Profile4}
-                        description="Experienced manager with a passion 
-                        for building high-performing teams 
-                        and developing talent."
+                        description="Experienced manager with a passion for building high performing teams and developing talent."
                     />
                 </div>
             </div>
             <div>
-                <h1 className='text-center font-semibold text-4xl my-16' data-aos="flip-down" data-aos-duration='1000'>Managers</h1>
-                <div className="flex gap-12 -mx-2" data-aos="fade-up" data-aos-duration='1500'>
+                <h1 className='text-center font-semibold text-4xl my-16' data-aos="fade-up" data-aos-duration='1500'>Managers</h1>
+                <div className="grid md:grid-cols-2 gap-12 -mx-2" data-aos="fade-up" data-aos-duration='1500'>
                     <CardProfile
                         name="M. Rifqi Suryanto"
                         position="HR and Operation Manager"
@@ -78,20 +74,20 @@ const ProfileTeam = () => {
                         name="Sanggam Tulus M. O. Gultom"
                         position="Creative Manager"
                         image={Profile6}
-                        description="Results-oriented manager with a focus 
+                        description="Results oriented manager with a focus 
                         on creating experienced employees and 
                         enhancing organizational culture"
                     />
                 </div>
             </div>
             <div>
-                <h1 className='text-center font-semibold text-4xl my-16' data-aos="flip-down" data-aos-duration='1000'>Web Developers</h1>
-                <div className="flex gap-12 -mx-2" data-aos="fade-up" data-aos-duration='1500'>
+                <h1 className='text-center font-semibold text-4xl my-16' data-aos="fade-up" data-aos-duration='1500'>Web Developers</h1>
+                <div className="grid md:grid-cols-2 gap-12 -mx-2 mb-24" data-aos="fade-up" data-aos-duration='1500'>
                     <CardProfile
                         name="Rahmat Hidayat"
                         position="Front-End Developer"
                         image={Profile7}
-                        description="Results-oriented manager with a focus 
+                        description="Results oriented manager with a focus 
                         on creating experienced employees and 
                         enhancing organizational culture"
                     />

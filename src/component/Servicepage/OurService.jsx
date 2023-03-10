@@ -41,7 +41,7 @@ const OurService = () => {
                 <div className="w-full lg:w-1/2 p-8" data-aos='zoom-in-up' data-aos-duration='1000'>
                     <img src={Service2} alt="Gambar Konten" className="w-full h-auto rounded-lg hidden lg:block " />
                 </div>
-                <div className="flex mt-8 flex-col w-full lg:w-1/2 p-8 text-primary-color event-mt lg:mt-0" data-aos='fade-up' data-aos-duration='1500'>
+                <div className="flex mt-14 flex-col w-full lg:w-1/2 p-8 text-primary-color event-mt lg:mt-0" data-aos='fade-up' data-aos-duration='1500'>
                     <h2 className="text-center text-2xl lg:text-left font-bold sm:text-4xl md:-mt-20 mb-4 lg:mt-20">Event Organizer</h2>
                     <p className="text-center text-m lg:text-left font-medium sm:text-xl mb-4">We Provide Services to Organize</p>
                     <hr />
@@ -60,7 +60,7 @@ const OurService = () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-wrap justify-center p-1 sm:p-6 -mt-10 lg:-mt-20 consulting-mt md:px-20 items-center lg:py-24" >
+            <div className="flex flex-wrap justify-center p-1 sm:p-6 -mt-12 lg:-mt-20 consulting-mt md:px-20 items-center lg:py-24" >
                 <div className="flex flex-col w-full lg:w-1/2 p-8 text-primary-color" data-aos='fade-up' data-aos-duration='1500'>
                     <h2 className="text-center text-2xl lg:text-left font-bold md:mt-10 sm:text-4xl mb-4 lg:mt-10">Consulting</h2>
                     <p className="text-center text-m lg:text-left font-medium sm:text-xl mb-2">We Provide Consultancy in
@@ -82,8 +82,8 @@ const OurService = () => {
                 <div className="w-full lg:w-1/2 p-8 lg:-mt-10" data-aos='zoom-in-up' data-aos-duration='1000'>
                     <img src={Service4} alt="Gambar Konten" className="w-full h-auto rounded-lg hidden lg:block " />
                 </div>
-                <div className="flex flex-col w-full lg:w-1/2 p-8 text-primary-color edu-mt md:mt-0 -mt-96 lg:-mt-20" data-aos='fade-up' data-aos-duration='1500'>
-                    <h2 className="text-center -mt-40 text-2xl lg:text-left font-bold md:mt-10 sm:text-4xl mb-4">Education & Training</h2>
+                <div className="flex flex-col w-full lg:w-1/2 p-8 text-primary-color edu-mt -mt-96 lg:-mt-20" data-aos='fade-up' data-aos-duration='1500'>
+                    <h2 className="text-center mt-96 text-2xl lg:text-left font-bold sm:text-4xl md:-mt-4 mb-4">Education & Training</h2>
                     <p className="text-center text-m lg:text-left font-medium sm:text-xl mb-2 ">We Provide Services for Education & Training</p>
                     <hr />
                     <ul className="text-l sm:text-2xl font-medium p-2 md:p-6 bg-white text-center lg:text-left  lg:list-disc md:px-12 ">
