@@ -15,7 +15,7 @@ const HeaderSupport = () => {
         <div className="bg-cover bg-center min-h-screen flex justify-center items-center team-hero bg-service">
             <div className="container -mt-10 mb-20 mx-auto px-4 lg:px-20 py-8 items-center flex flex-col md:flex-row">
                 <div className="md:w-1/2 md:pr-8" data-aos="fade-right">
-                    <p className="text-white text-3xl font-bold sm:text-5xl mb-4">Certificate and Rules</p>
+                    <p className="text-white text-3xl font-bold sm:text-5xl mb-4 support-mt">Certificate and Rules</p>
                     <p className="text-white text-m sm:text-lg mb-8">
                         The official rules and regulations governing our organization can be found here. We strongly advise all parties to review them carefully.
                     </p>

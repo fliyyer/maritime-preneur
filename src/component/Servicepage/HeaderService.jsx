@@ -14,7 +14,7 @@ const HeaderService = () => {
         <div className="bg-cover bg-center min-h-screen flex justify-center items-center team-hero bg-service">
             <div className="container mx-auto px-6 md:px-20 -mt-10 mb-20 items-center flex flex-col md:flex-row">
                 <div className="md:w-1/2 md:pr-8" data-aos='fade-right'>
-                    <p className="text-white font-bold text-3xl lg:text-5xl mb-6 text-team title-mt">Experience the Best Service with Us!</p>
+                    <p className="text-white font-bold text-3xl lg:text-5xl mb-6 text-team service-mt">Experience the Best Service with Us!</p>
                     <p className="text-white text-l sm:text-lg mb-8">
                         Let us help you succeed with our range of professional services.
                     </p>

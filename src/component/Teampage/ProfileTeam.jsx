@@ -23,7 +23,7 @@ const ProfileTeam = () => {
             <div>
                 <h1 className='text-center font-semibold text-4xl my-16' data-aos="flip-down" data-aos-duration='1000' >Board of
                     Commisioners</h1>
-                <div className="flex gap-12 -mx-2" data-aos="fade-up" data-aos-duration='1500' >
+                <div className="flex gap-12 -mx-2 sm:flex flex-col w-auto sm:gap-7 items-center " data-aos="fade-up" data-aos-duration='1500' >
                     <CardProfile
                         name="Dr. I Wayan Nurjaya"
                         position="President Commisioner"

@@ -45,7 +45,6 @@
 }
 
 .card-profile {
-    width: 560px;
     height: 320px;
 }
 .card-profile p {
@@ -105,10 +104,9 @@
         margin-top: -50px;
     }
     .edu-mt {
-        margin-top: 200px;
+        margin-top: 360px;
     }
-
-    .title-mt {
-        margin-top: 50px;
+    .service-mt, .home-mt, .team-mt, .support-mt {
+        margin-top: 70px;
     }
 }
