@@ -51,13 +51,6 @@
     line-height: 170%;
     /* font-size: 23px; */
 }
-/* .team-hero {
-    background-image: url('../assets/bg-team.png');
-} */
-
-.bg-support {
-    background-image: url(../assets//bg-sup.png);
-}
 
 .bg-service {
     background-image: url(../assets/bg-header.png);
@@ -94,6 +87,22 @@
 
 .text-team {
     line-height: 120%;
+}
+
+.card-our-team {
+    width: 340px;
+    height: 300px;
+    background-color: #1E3158;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.card-our-teams {
+    width: 340px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid gray;
 }
 
 @media screen and (min-width: 240px) and (max-width: 320px) {
