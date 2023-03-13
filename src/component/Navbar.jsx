@@ -2,6 +2,7 @@ import { useState } from "react";
 import Brand from "../assets/brand.png";
 import Brand2 from "../assets/brand2.png";
 import { Link, useLocation } from "react-router-dom";
+import { BsTranslate } from "react-icons/bs"
 
 export default function NavBar() {
     const location = useLocation();
@@ -22,7 +23,20 @@ export default function NavBar() {
         <img className="w-14" src={Brand} alt="Maritime Color" />
     ) : (
         <img className="w-14" src={Brand2} alt="Maritime White" />
+        
     );
+
+    // const TranslateButton = () => {
+    //     const [language, setLanguage] = useState('id');
+      
+    //     const handleLanguageChange = (event) => {
+    //       setLanguage(event.target.value);
+    //     };
+      
+    //     const handleTranslateClick = () => {
+    //       // Logika untuk mengganti bahasa di sini
+    //     };
+    
 
     window.addEventListener("scroll", changeBackground);
 
@@ -86,6 +100,31 @@ export default function NavBar() {
                                 }`}
                         >
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-l font-semibold">
+                                <li className="text-secondary-color hover:opacity-80 cursor-pointer">
+                                    <div className="relative">
+                                        <button
+                                            className="flex items-center justify-center gap-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                                            // onClick={handleTranslateClick}
+                                        >
+                                            <BsTranslate className="w-5 h-5" />
+                                            <span>Translate</span>
+                                        </button>
+                                        <div className="absolute right-0 w-40 mt-2 py-2 bg-white border border-gray-200 rounded-lg shadow-lg z-10">
+                                            <label htmlFor="language-select" className="sr-only">
+                                                Language
+                                            </label>
+                                            <select
+                                                id="language-select"
+                                                className="block w-full rounded-md bg-white border border-gray-300 text-gray-700 py-2 px-3 leading-tight focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                                                // value={language}
+                                                // onChange={handleLanguageChange}
+                                            >
+                                                <option value="id">Indonesia</option>
+                                                <option value="en">English</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li className="text-secondary-color hover:opacity-80 cursor-pointer">
                                     <Link
                                         to="/"
