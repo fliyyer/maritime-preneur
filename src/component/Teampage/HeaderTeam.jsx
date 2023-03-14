@@ -18,7 +18,7 @@ const HeaderTeam = () => {
                     <p className="text-white font-bold text-3xl md:text-4xl lg:text-5xl mb-4 text-team team-mt">Discover Our Team
                         <br /> of
                         Professionals</p>
-                        <p className="text-white text-m sm:text-lg mb-8">We believe that a solid and collaborative teamwork is the key to success.</p>
+                    <p className="text-white text-m sm:text-lg mb-8">We believe that a solid and collaborative teamwork is the key to success.</p>
                 </div>
                 <div className="md:w-1/2" data-aos='fade-left' data-aos-duration='1500'>
                     <img className="rounded-lg " src={Team} alt="gambar" />

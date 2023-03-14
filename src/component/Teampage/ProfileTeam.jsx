@@ -11,7 +11,6 @@ import Profile7 from '../../assets/profile7.png'
 import Profile8 from '../../assets/profile8.png'
 
 const ProfileTeam = () => {
-
     useEffect(() => {
         AOS.init({
             once: true,
@@ -68,15 +67,13 @@ const ProfileTeam = () => {
                         image={Profile5}
                         description="Results-oriented manager with a focus 
                         on creating experienced employees and 
-                        enhancing organizational culture"
+                        enhancing organizational culture."
                     />
                     <CardProfile
                         name="Sanggam Tulus M. O. Gultom"
                         position="Creative Manager"
                         image={Profile6}
-                        description="Results oriented manager with a focus 
-                        on creating experienced employees and 
-                        enhancing organizational culture"
+                        description="Leads a team of professionals to create innovative visual and written content for marketing campaigns."
                     />
                 </div>
             </div>
@@ -87,17 +84,13 @@ const ProfileTeam = () => {
                         name="Rahmat Hidayat"
                         position="Front-End Developer"
                         image={Profile7}
-                        description="Results oriented manager with a focus 
-                        on creating experienced employees and 
-                        enhancing organizational culture"
+                        description="Specialize in creating visually appealing responsive websites that provide a seamless user experience."
                     />
                     <CardProfile
                         name="Marselina Rahmawati"
                         position="Web Designer"
                         image={Profile8}
-                        description="Results-oriented manager with a focus 
-                        on creating experienced employees and 
-                        enhancing organizational culture"
+                        description="specialize in creating visually stunning and user-friendly websites that engage and captivate users."
                     />
                 </div>
             </div>
